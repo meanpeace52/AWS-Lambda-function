@@ -1,0 +1,19 @@
+{
+  "name": "CreateUser",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "*",
+    "node-uuid": "*",
+    "dynamodb-doc": "*",
+    "mocha": "*",
+    "bcrypt": "*"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-aws-lambda": "^0.12.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-mocha-test": "^0.12.7"
+  }
+}
